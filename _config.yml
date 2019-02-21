@@ -16,8 +16,7 @@
 title: Christopher Albert's website
 #email: albert@alumni.tugraz.at
 description: >- # this means to ignore newlines until "baseurl:"
-  Personal website with
-  links to different scientific and teaching resources related to
+  Personal website with different scientific and teaching resources related to
   theoretical physics, mathematics, numerics and machine learning 
   applied to fusion plasmas, acoustics, electromagnetics and engineering.
 #  Write an awesome description for your new site here. You can edit this
@@ -33,6 +32,9 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+
+include: 
+  - _pages
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
