@@ -6,6 +6,8 @@ title: Welcome!
 About
 ----------
 
+<img style="float: right;" src="https://itp.tugraz.at/~ert/images/chris.jpg">
+
 I'm a physicist at [NMPP](https://www.ipp.mpg.de/ippcms/de/for/bereiche/numerik), 
 [IPP Garching](https://www.ipp.mpg.de/12411/garching) and teaching plasma physics
 at [TU Graz](https://www.tugraz.at/).
