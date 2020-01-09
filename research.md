@@ -24,7 +24,7 @@ My research interests are the following:
 Selected publications
 ------------
 
-([full list](https://graz.pure.elsevier.com/de/persons/christopher-albert/publications/))
+For a full list see [Google Scholar](https://scholar.google.com/citations?hl=en&user=nMhOjWIAAAAJ) or [https://orcid.org/0000-0003-4773-416X](https://orcid.org/0000-0003-4773-416X)
 
 Christopher Albert, Klaus Lichtenegger. Physikalische Rezepte: Mechanik. Springer Spektrum (2018).
 [Link](https://www.springer.com/de/book/9783662572962)
