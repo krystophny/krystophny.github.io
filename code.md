@@ -7,7 +7,7 @@ permalink: /code/
 I'm the maintainer of the following codes:
 
 Open Source:
-* [profit](https://github.com/redmod-team/profit): Python toolkit for response surface model fitting for complexity reduction and uncertainty quantification
+* [profit](https://github.com/redmod-team/profit): Python toolkit for response surface model fitting with uncertainty quantification
 * [fffi](https://github.com/pyccel/fffi): Fortran foreign function interface for Python, part of [pyccel](https://github.com/pyccel/)
 * [TpX](https://github.com/krystophny/tpx): GUI drawing tool for LaTeX/TikZ figures 
 
