@@ -26,6 +26,16 @@ Selected publications
 
 For a full list see [Google Scholar](https://scholar.google.com/citations?hl=en&user=nMhOjWIAAAAJ) or [https://orcid.org/0000-0003-4773-416X](https://orcid.org/0000-0003-4773-416X)
 
+C. G. Albert, S. V. Kasilov, W. Kernbichler.
+Symplectic integration with non-canonical quadrature for guiding-center orbits in magnetic confinement devices.
+Journal of Computational Physics 403 (2020)
+[Link](https://authors.elsevier.com/a/1aGDQ508HiHEt)
+
+C. G. Albert, K. Rath.
+Gaussian Processes for Data Fulfilling Linear Differential Equations.
+39th MaxEnt Proceedings 33(1), 5 (2019), submitted to Entropy
+[Link](https://doi.org/10.3390/proceedings2019033005)
+
 Christopher Albert, Klaus Lichtenegger. Physikalische Rezepte: Mechanik. Springer Spektrum (2018).
 [Link](https://www.springer.com/de/book/9783662572962)
 
@@ -37,7 +47,7 @@ Journal of Physics: Conference Series, Joint Varenna-Lausanne International Work
 C. G. Albert, M. F. Heyn, G. Kapper, S. V. Kasilov, W. Kernbichler, A. F. Martitsch.
 Hamiltonian approach for evaluation of toroidal torque from finite amplitude non-
 axisymmetric perturbations of a tokamak magnetic field in resonant transport regimes.
-P1.051, 43rd EPS Conference in Plasma Physics (2016).
+43rd EPS Conference in Plasma Physics, P1.051 (2016).
 [PDF](http://ocs.ciemat.es/EPS2016PAP/pdf/P1.051.pdf)
 
 C. G. Albert, M. F. Heyn, G. Kapper, S. V. Kasilov, W. Kernbichler, A. F. Martitsch.
