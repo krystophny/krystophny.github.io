@@ -6,19 +6,25 @@ permalink: /research/
 
 My research interests are the following:
 
-* Theoretical plasma physics
-    * Nonaxisymmetric perturbations in tokamaks
-    * Hamiltonian methods for treatment of resonances
-    * Numerical treatment of plasma response to resonant magnetic perturbations
-<br><br>
-* Analytical and numerical methods
-    * Uncertainty quantification and model complexity reduction
-    * Partial differential equations in curvilinear coordinate systems
-    * Finite element methods with absorbing boundary conditions
-<br><br>
-* Acoustics
-    * Poroelastic damping materials
-    * Measurement methods for surface impedance
+**Theoretical plasma physics**<br>
+Application of Hamiltonian mechanics, perturbation theory, chaos and fractal 
+geometry to fusion plasmas. 
+Resonant transport at low collisionality. Tokamak plasmas with non-axisymmetric perturbations. 
+Studies of energetic alpha particles and neoclassical computations for stellarator optimization.
+
+**Physics-informed machine learning**<br>
+Regression and interpolation of equations representing laws of physics 
+via Gaussian processes and artificial neural networks.
+Structure-preserving projection to sub-manifolds of lower dimension.
+Fast surrogates via interpolated Hamiltonian mappings.
+Bayesian methods for uncertainty quantification and reliability studies.
+
+**Structure-preserving numerics in application**<br>
+Symplectic integration in systems with non-canonical formulation.
+Energy- and momentum-conserving collision operators.
+Combination of analytical and numerical methods to improve efficiency.
+Multi-disciplinary applications in acoustics and electrical engineering.
+High-performance computing and parallelization.
 
 
 Selected publications
