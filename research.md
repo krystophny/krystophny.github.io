@@ -34,7 +34,7 @@ Journal of Computational Physics 403 (2020)
 C. G. Albert, K. Rath.
 Gaussian Processes for Data Fulfilling Linear Differential Equations.
 39th MaxEnt Proceedings 33(1), 5 (2019)
-[Link](https://doi.org/10.3390/proceedings2019033005), extended version submitted to Entropy
+[Link](https://doi.org/10.3390/proceedings2019033005), extended version accepted at Entropy (2020)
 
 Christopher Albert, Klaus Lichtenegger. Physikalische Rezepte: Mechanik. Springer Spektrum (2018).
 [Link](https://www.springer.com/de/book/9783662572962)
