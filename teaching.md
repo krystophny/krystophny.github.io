@@ -26,6 +26,8 @@ Machine learning
 	* [Slides](https://itp.tugraz.at/~ert/assets/pce/Albert2018_Seminar_PCE.pdf)
 	* [Example Jupyter notebook](https://itp.tugraz.at/~ert/assets/pce/pce.ipynb)
 	* [Example Python script](https://itp.tugraz.at/~ert/assets/pce/pce.py)
+	
+* Interpolation by [collocation](https://github.com/krystophny/krystophny.github.io/blob/master/assets/teaching/interp_colloc.ipynb)
 
 
 Partial Differential Equations
