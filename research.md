@@ -34,7 +34,7 @@ Selected publications
 For a full list see [Google Scholar](https://scholar.google.com/citations?hl=en&user=nMhOjWIAAAAJ) or [https://orcid.org/0000-0003-4773-416X](https://orcid.org/0000-0003-4773-416X)
 
 K. Rath, C. G. Albert, B. Bischl, U. von Toussaint. 
-Symplectic Gaussian process regression of Hamiltonian flow maps. 
+Symplectic Gaussian Process Regression of Maps in Hamiltonian Systems.
 Submitted to Chaos (2021)
 [Link](https://arxiv.org/abs/2009.05569)
 
