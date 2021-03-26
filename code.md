@@ -5,9 +5,8 @@ permalink: /code/
 order: 4
 ---
 
-I'm the maintainer of the following codes:
+I'm the maintainer of the following open source codes:
 
-Open Source:
 * [SIMPLE](https://github.com/itpplasma/SIMPLE): Symplectic integrators for guiding-center motion in electromagentic fields
 * [NEO-RT](https://github.com/itpplasma/NEO-RT): Computes ion neoclassical toroidal viscous torque in tokamak plasmas including finite orbit width
 * [proFit](https://github.com/redmod-team/profit): Python toolkit for response surface model fitting with uncertainty quantification
