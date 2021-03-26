@@ -26,7 +26,7 @@ if you're excited about nuclear fusion, theory and numerics,
 don't be afraid to contact me!
 
 If you'd like to know more about me, my
-[CV](https://itp.tugraz.at/~ert/assets/cv.en.2019.pdf) is available for download and
+[CV](https://itp.tugraz.at/~ert/assets/cv.ac.2021.pdf) is available for download and
 my [electronic business
 card](https://online.tugraz.at/tug_online/visitenkarte.show_vcard?pPersonenId=C21936EF50DC00EC&pPersonenGruppe=3)
 at TU Graz is linked as well as my [publication list](https://graz.pure.elsevier.com/de/persons/christopher-albert/publications/).
