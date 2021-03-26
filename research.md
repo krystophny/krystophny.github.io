@@ -8,8 +8,8 @@ My research interests are the following:
 
 **Theoretical plasma physics**<br>
 Application of Hamiltonian mechanics, perturbation theory, chaos and fractal 
-geometry to fusion plasmas. 
-Resonant transport at low collisionality. Tokamak plasmas with non-axisymmetric perturbations. 
+geometry to fusion plasmas. Kinetic theory of resonant transport at low collisionality. 
+Tokamak plasmas with non-axisymmetric perturbations. 
 Studies of energetic alpha particles and neoclassical computations for stellarator optimization.
 
 **Physics-informed machine learning**<br>
@@ -32,6 +32,16 @@ Selected publications
 
 For a full list see [Google Scholar](https://scholar.google.com/citations?hl=en&user=nMhOjWIAAAAJ) or [https://orcid.org/0000-0003-4773-416X](https://orcid.org/0000-0003-4773-416X)
 
+K. Rath, C. G. Albert, B. Bischl, U. von Toussaint. 
+Symplectic Gaussian process regression of Hamiltonian flow maps. 
+Submitted to Chaos (2021)
+[Link](https://arxiv.org/abs/2009.05569)
+
+C. G. Albert, S. V. Kasilov, W. Kernbichler.
+Accelerated methods for direct computation of fusion alpha particle losses within stellarator optimization. 
+Journal of Plasma Physics 86(2), 815860201 (2020)
+[Link](https://dx.doi.org/10.1017/S0022377820000203)
+
 C. G. Albert, S. V. Kasilov, W. Kernbichler.
 Symplectic integration with non-canonical quadrature for guiding-center orbits in magnetic confinement devices.
 Journal of Computational Physics 403 (2020)
@@ -39,7 +49,7 @@ Journal of Computational Physics 403 (2020)
 
 C. G. Albert, K. Rath.
 Gaussian Processes for Data Fulfilling Linear Differential Equations.
-39th MaxEnt Proceedings 33(1), 5 (2019)
+Entropy 22(2) 152 (2020)
 [Link](https://doi.org/10.3390/proceedings2019033005), extended version accepted in Entropy (2020)
 
 Christopher Albert, Klaus Lichtenegger. Physikalische Rezepte: Mechanik. Springer Spektrum (2018).
