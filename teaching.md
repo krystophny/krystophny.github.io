@@ -2,6 +2,7 @@
 layout: page
 title: Teaching
 permalink: /teaching/
+order: 3
 ---
 
 Plasma Physics
