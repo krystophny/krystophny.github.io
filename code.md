@@ -2,6 +2,7 @@
 layout: page
 title: Code
 permalink: /code/
+order: 4
 ---
 
 I'm the maintainer of the following codes:
