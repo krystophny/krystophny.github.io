@@ -15,7 +15,13 @@ Plasma Physics
 * Fokker-Planck collision operator and Monte Carlo method:
     * [Outline](https://itp.tugraz.at/~ert/assets/kinetic.pdf)
     * [Problem from PLANCKS 2017](https://itp.tugraz.at/~ert/assets/example_plasma_2.pdf)
+* Check out the new course on [Fusion Reactor Design](https://online.tugraz.at/tug_online/wbLv.wbShowLVDetail?pStpSpNr=423064)!
 
+Programming in Physics
+----------------------
+* [Programming in Physics](https://online.tugraz.at/tug_online/wbLv.wbShowLVDetail?pStpSpNr=403515)
+* [Advanced Programming in Physics](https://online.tugraz.at/tug_online/wbLv.wbShowLVDetail?pStpSpNr=404025)
+* [Software Engineering in Physics](https://online.tugraz.at/tug_online/wbLv.wbShowLVDetail?pStpSpNr=410565)
 
 Machine learning
 ----------------
