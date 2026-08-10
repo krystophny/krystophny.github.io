@@ -8,7 +8,7 @@
  * own template language can resolve its base URL:
  *
  *   <div class="pubs" data-src="…/publications.json"
- *        data-highlight="Albert" data-per-page="25"> fallback </div>
+ *        data-per-page="25"> fallback </div>
  *
  * Rendering is createElement and textContent throughout. Titles arrive with
  * Crossref markup stripped in Python, but nothing here may assume that.
@@ -31,15 +31,6 @@
             return lowered.normalize("NFKD").replace(/[\u0300-\u036f]/g, "");
         }
         return lowered;
-    }
-
-    /* Whole-word, so highlighting "Albert" does not also hit "Alberti". */
-    function namedIn(name, needle) {
-        var tokens = fold(name).split(/[^a-z0-9]+/);
-        for (var i = 0; i < tokens.length; i += 1) {
-            if (tokens[i] === needle) { return true; }
-        }
-        return false;
     }
 
     function safeHref(url) {
@@ -93,7 +84,7 @@
         return bits;
     }
 
-    function renderItem(item, highlight) {
+    function renderItem(item) {
         var li = el("li", "pubs__item");
 
         var href = safeHref(item.url);
@@ -107,19 +98,10 @@
         }
         li.appendChild(title);
 
-        var authors = el("span", "pubs__authors");
-        var needle = highlight ? fold(highlight) : null;
-        item.authors.forEach(function (name, index) {
-            if (index > 0) { authors.appendChild(document.createTextNode(", ")); }
-            if (needle && namedIn(name, needle)) {
-                authors.appendChild(el("strong", null, name));
-            } else {
-                authors.appendChild(document.createTextNode(name));
-            }
-        });
+        var authors = el("span", "pubs__authors", item.authors.join(", "));
         if (item.authors_total > item.authors.length) {
-            authors.appendChild(document.createTextNode(
-                " and " + (item.authors_total - item.authors.length) + " others"));
+            authors.textContent += " and " +
+                (item.authors_total - item.authors.length) + " others";
         }
         li.appendChild(authors);
 
@@ -173,7 +155,6 @@
     }
 
     function mount(root, data) {
-        var highlight = root.getAttribute("data-highlight") || null;
         var perPage = parseInt(root.getAttribute("data-per-page"), 10) || 25;
         var state = readState(root);
 
@@ -255,7 +236,7 @@
                 list.appendChild(el("li", "pubs__empty", "No publications match this search."));
                 status.textContent = "0 of " + data.count + " publications";
             } else {
-                slice.forEach(function (item) { list.appendChild(renderItem(item, highlight)); });
+                slice.forEach(function (item) { list.appendChild(renderItem(item)); });
                 status.textContent = "Showing " + (from + 1) + "–" +
                     (from + slice.length) + " of " + rows.length +
                     (rows.length === data.count ? " publications" : " matching publications");

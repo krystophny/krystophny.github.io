@@ -1,6 +1,6 @@
 {
  "count": 114,
- "generated_at": "2026-08-10T17:38:30+00:00",
+ "generated_at": "2026-08-10T17:47:14+00:00",
  "items": [
   {
    "authors": [
@@ -87,7 +87,7 @@
     "B. Labit",
     "E. Tsitrone",
     "M. Wischmeier",
-    "C. Albert"
+    "J. Adamek"
    ],
    "authors_total": 778,
    "doi": "10.1088/1741-4326/ae71ec",
@@ -207,7 +207,7 @@
     "The JET contributors",
     "C.F. Maggi",
     "D. Abate",
-    "C. Albert"
+    "N. Abid"
    ],
    "authors_total": 1892,
    "doi": "10.1038/s41598-026-38318-9",
@@ -267,7 +267,7 @@
     "G. McArdle",
     "C. Vincent",
     "J. Lovell",
-    "C. Albert"
+    "S. S. Henderson"
    ],
    "authors_total": 997,
    "doi": "10.1038/s41560-025-01824-7",
@@ -349,7 +349,7 @@
     "Peter Ryan",
     "Christian Theiler",
     "Tijs Wijkamp",
-    "C. Albert"
+    "Dominik Brida"
    ],
    "authors_total": 984,
    "doi": "10.1038/s42005-025-02121-1",
@@ -405,7 +405,7 @@
     "M. Toscano-Jimenez",
     "P. Oyola",
     "Y. Todo",
-    "C. Albert"
+    "Y. Suzuki"
    ],
    "authors_total": 776,
    "doi": "10.1038/s41567-024-02715-6",
@@ -643,7 +643,7 @@
     "B. Labit",
     "E. Tsitrone",
     "N. Vianello",
-    "C. Albert"
+    "the ASDEX Upgrade Team"
    ],
    "authors_total": 20,
    "doi": "10.1088/1741-4326/ad2be4",
@@ -900,7 +900,7 @@
     "R. M. Magee",
     "F. Warmer",
     "A. Dinklage",
-    "C. G. Albert"
+    "A. Matsuyama"
    ],
    "authors_total": 33,
    "doi": "10.1088/1741-4326/ad3a7a",
@@ -2056,7 +2056,7 @@
     "L. Frassinetti",
     "P. Hennequin",
     "R. Maurizio",
-    "C. Albert"
+    "A. Merle"
    ],
    "authors_total": 465,
    "doi": "10.1088/1741-4326/ab2211",

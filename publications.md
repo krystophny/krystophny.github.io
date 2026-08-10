@@ -9,7 +9,6 @@ order: 3
 
 <div class="pubs"
      data-src="{{ '/assets/data/publications.json' | relative_url }}"
-     data-highlight="Albert"
      data-per-page="25">
   <p>
     Generated from my Zotero library.
