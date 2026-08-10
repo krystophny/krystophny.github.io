@@ -1,13 +1,15 @@
 {
  "count": 114,
- "generated_at": "2026-08-10T20:14:35+00:00",
+ "generated_at": "2026-08-10T20:20:42+00:00",
  "items": [
   {
    "authors": [
     "Christopher Albert"
    ],
    "authors_total": 1,
-   "category": "talk",
+   "categories": [
+    "talk"
+   ],
    "doi": null,
    "id": "PNE8QDFN",
    "invited": true,
@@ -37,7 +39,9 @@
     "M. Gölles"
    ],
    "authors_total": 9,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1016/j.segy.2026.100262",
    "id": "WF6WEV7I",
    "invited": false,
@@ -62,7 +66,9 @@
     "Winfried Kernbichler"
    ],
    "authors_total": 4,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1063/5.0332431",
    "id": "MK9ADRZ3",
    "invited": false,
@@ -93,7 +99,9 @@
     "J. Adamek"
    ],
    "authors_total": 778,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1088/1741-4326/ae71ec",
    "id": "EBCS5FX8",
    "invited": false,
@@ -124,7 +132,9 @@
     "Y. Andrèbe"
    ],
    "authors_total": 393,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1088/1741-4326/ae6d12",
    "id": "QTFB83PT",
    "invited": false,
@@ -155,7 +165,9 @@
     "G.C. Amanekwe"
    ],
    "authors_total": 519,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1088/1741-4326/ae5f32",
    "id": "XSBADJXZ",
    "invited": false,
@@ -186,7 +198,9 @@
     "the EUROfusion Tokamak Exploitation Team"
    ],
    "authors_total": 10,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1088/1361-6587/ae681c",
    "id": "39PTCGRB",
    "invited": false,
@@ -217,7 +231,9 @@
     "N. Abid"
    ],
    "authors_total": 1892,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1038/s41598-026-38318-9",
    "id": "QM6RF7XP",
    "invited": false,
@@ -248,7 +264,10 @@
     "Léo Bonal"
    ],
    "authors_total": 10,
-   "category": "paper",
+   "categories": [
+    "paper",
+    "software"
+   ],
    "doi": "10.21105/joss.07928",
    "id": "DIXMIA4V",
    "invited": false,
@@ -279,7 +298,9 @@
     "S. S. Henderson"
    ],
    "authors_total": 997,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1038/s41560-025-01824-7",
    "id": "AQ3VJJ7N",
    "invited": false,
@@ -307,7 +328,9 @@
     "the EUROfusion Tokamak Exploitation Team"
    ],
    "authors_total": 7,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1088/1361-6587/add0df",
    "id": "XAIAL554",
    "invited": false,
@@ -333,7 +356,9 @@
     "Winfried Kernbichler"
    ],
    "authors_total": 5,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1017/s0022377825000200",
    "id": "FZHVHIX5",
    "invited": false,
@@ -364,7 +389,9 @@
     "Dominik Brida"
    ],
    "authors_total": 984,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1038/s42005-025-02121-1",
    "id": "BU46UNB9",
    "invited": false,
@@ -391,7 +418,9 @@
     "the W7-X Team"
    ],
    "authors_total": 6,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1088/1361-6587/add375",
    "id": "8Z8D7CEW",
    "invited": false,
@@ -422,7 +451,9 @@
     "Y. Suzuki"
    ],
    "authors_total": 776,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1038/s41567-024-02715-6",
    "id": "CIU5RSX6",
    "invited": false,
@@ -444,7 +475,9 @@
     "Christopher G. Albert"
    ],
    "authors_total": 1,
-   "category": "talk",
+   "categories": [
+    "talk"
+   ],
    "doi": null,
    "id": "X3CR3V6D",
    "invited": true,
@@ -470,7 +503,9 @@
     "Jonatan Schatzlmayr"
    ],
    "authors_total": 5,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1088/1361-6587/ae10dd",
    "id": "K58VUUY2",
    "invited": false,
@@ -492,7 +527,9 @@
     "Christopher G. Albert"
    ],
    "authors_total": 1,
-   "category": "talk",
+   "categories": [
+    "talk"
+   ],
    "doi": null,
    "id": "T8J6J52H",
    "invited": false,
@@ -516,7 +553,9 @@
     "Christopher Albert"
    ],
    "authors_total": 3,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1007/s10894-025-00505-3",
    "id": "AHJVSD3I",
    "invited": false,
@@ -547,7 +586,9 @@
     "MAST-U Team"
    ],
    "authors_total": 11,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1088/1741-4326/ae059e",
    "id": "K83MEEXY",
    "invited": false,
@@ -578,7 +619,9 @@
     "J Schilling"
    ],
    "authors_total": 11,
-   "category": "poster",
+   "categories": [
+    "poster"
+   ],
    "doi": null,
    "id": "5DQEYZ35",
    "invited": false,
@@ -609,7 +652,9 @@
     "A. Kirjasuo"
    ],
    "authors_total": 17,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1088/1741-4326/ad9758",
    "id": "CKV62NXI",
    "invited": false,
@@ -638,7 +683,9 @@
     "the EUROfusion Tokamak Exploitation Team"
    ],
    "authors_total": 8,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1088/1741-4326/ad96ca",
    "id": "I4PK3QMX",
    "invited": false,
@@ -669,7 +716,9 @@
     "the ASDEX Upgrade Team"
    ],
    "authors_total": 20,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1088/1741-4326/ad2be4",
    "id": "4K2HNPDA",
    "invited": false,
@@ -694,7 +743,9 @@
     "Yu Volkova"
    ],
    "authors_total": 4,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1088/1741-4326/ad6e05",
    "id": "Q4NWKEMG",
    "invited": false,
@@ -719,7 +770,9 @@
     "Sergiy Kasilov"
    ],
    "authors_total": 4,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": null,
    "id": "KQUB33WT",
    "invited": false,
@@ -748,7 +801,9 @@
     "L Pigatto"
    ],
    "authors_total": 8,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": null,
    "id": "WQ9IMRE3",
    "invited": false,
@@ -775,7 +830,9 @@
     "M Markl"
    ],
    "authors_total": 6,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": null,
    "id": "HPG58BIH",
    "invited": false,
@@ -801,7 +858,9 @@
     "others"
    ],
    "authors_total": 5,
-   "category": "poster",
+   "categories": [
+    "poster"
+   ],
    "doi": null,
    "id": "PDDQDC8A",
    "invited": false,
@@ -825,7 +884,9 @@
     "CG Albert"
    ],
    "authors_total": 3,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": null,
    "id": "AK9XSKIW",
    "invited": false,
@@ -852,7 +913,9 @@
     "CG Albert"
    ],
    "authors_total": 6,
-   "category": "poster",
+   "categories": [
+    "poster"
+   ],
    "doi": null,
    "id": "PW5V3BA4",
    "invited": false,
@@ -874,7 +937,9 @@
     "Christopher G. Albert"
    ],
    "authors_total": 1,
-   "category": "talk",
+   "categories": [
+    "talk"
+   ],
    "doi": null,
    "id": "ZI2S4TVQ",
    "invited": false,
@@ -905,7 +970,9 @@
     "E. Ascasibar"
    ],
    "authors_total": 10,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1088/1741-4326/ad2f4d",
    "id": "7Z3AI3W9",
    "invited": false,
@@ -936,7 +1003,9 @@
     "A. Matsuyama"
    ],
    "authors_total": 33,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1088/1741-4326/ad3a7a",
    "id": "GHV2HBTQ",
    "invited": false,
@@ -958,7 +1027,9 @@
     "Christopher G. Albert"
    ],
    "authors_total": 1,
-   "category": "talk",
+   "categories": [
+    "talk"
+   ],
    "doi": null,
    "id": "YYRALXDX",
    "invited": false,
@@ -982,7 +1053,9 @@
     "Guizhong Zuo"
    ],
    "authors_total": 3,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": null,
    "id": "DRN33NFH",
    "invited": false,
@@ -1013,7 +1086,9 @@
     "Matthias Willensdorfer"
    ],
    "authors_total": 11,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1088/1741-4326/acf20c",
    "id": "IC5GIRKP",
    "invited": false,
@@ -1044,7 +1119,9 @@
     "Yueqiang Liu"
    ],
    "authors_total": 13,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1016/j.fusengdes.2023.114010",
    "id": "A254CGN8",
    "invited": false,
@@ -1074,7 +1151,10 @@
     "Christopher G. Albert"
    ],
    "authors_total": 9,
-   "category": "paper",
+   "categories": [
+    "paper",
+    "software"
+   ],
    "doi": "10.21105/joss.04890",
    "id": "KTJ8CXC5",
    "invited": false,
@@ -1100,7 +1180,9 @@
     "Katharina Rath"
    ],
    "authors_total": 5,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1017/s0022377823000351",
    "id": "4ILSQ79X",
    "invited": false,
@@ -1122,7 +1204,9 @@
     "Christopher G. Albert"
    ],
    "authors_total": 1,
-   "category": "talk",
+   "categories": [
+    "talk"
+   ],
    "doi": null,
    "id": "FWZILCEK",
    "invited": false,
@@ -1149,7 +1233,9 @@
     "W7-X. Team"
    ],
    "authors_total": 6,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1002/ctpp.202200173",
    "id": "Q3KCENHE",
    "invited": false,
@@ -1177,7 +1263,9 @@
     "M Markl"
    ],
    "authors_total": 7,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": null,
    "id": "E7WURIEA",
    "invited": false,
@@ -1205,7 +1293,9 @@
     "others"
    ],
    "authors_total": 7,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": null,
    "id": "IWUCNLLN",
    "invited": false,
@@ -1236,7 +1326,9 @@
     "T Gleiter"
    ],
    "authors_total": 11,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": null,
    "id": "QHDR3CZF",
    "invited": false,
@@ -1258,7 +1350,9 @@
     "Christopher G. Albert"
    ],
    "authors_total": 1,
-   "category": "talk",
+   "categories": [
+    "talk"
+   ],
    "doi": null,
    "id": "9EXBDA37",
    "invited": true,
@@ -1280,7 +1374,9 @@
     "Christopher G. Albert"
    ],
    "authors_total": 1,
-   "category": "talk",
+   "categories": [
+    "talk"
+   ],
    "doi": null,
    "id": "YE3S7HAX",
    "invited": false,
@@ -1307,7 +1403,9 @@
     "L. Pigatto"
    ],
    "authors_total": 6,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": null,
    "id": "QG3PQFVH",
    "invited": false,
@@ -1335,7 +1433,9 @@
     "et al. Serre"
    ],
    "authors_total": 7,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": null,
    "id": "PWQUCJYF",
    "invited": false,
@@ -1359,7 +1459,9 @@
     "Christopher G. Albert"
    ],
    "authors_total": 3,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.3390/psf2023009006",
    "id": "6MP2PN7D",
    "invited": false,
@@ -1389,7 +1491,9 @@
     "Matthias Willensdorfer"
    ],
    "authors_total": 9,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": null,
    "id": "BNLZN6LZ",
    "invited": false,
@@ -1415,7 +1519,9 @@
     "Christopher G. Albert"
    ],
    "authors_total": 5,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1002/ctpp.202200175",
    "id": "8MNVM3VM",
    "invited": false,
@@ -1441,7 +1547,9 @@
     "C.G. Albert"
    ],
    "authors_total": 5,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.46813/2022-142-009",
    "id": "RKTKR323",
    "invited": false,
@@ -1468,7 +1576,9 @@
     "W. Kernbichler"
    ],
    "authors_total": 6,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1088/1742-6596/2397/1/012009",
    "id": "THHUYD6U",
    "invited": false,
@@ -1494,7 +1604,9 @@
     "C. G. Albert"
    ],
    "authors_total": 5,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1088/1742-6596/2397/1/012014",
    "id": "37K684WI",
    "invited": false,
@@ -1521,7 +1633,9 @@
     "C. G. Albert"
    ],
    "authors_total": 6,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1088/1742-6596/2397/1/012012",
    "id": "BWRPRA74",
    "invited": false,
@@ -1552,7 +1666,9 @@
     "R. Fischer"
    ],
    "authors_total": 17,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1103/physrevlett.129.165001",
    "id": "A9X56TR4",
    "invited": false,
@@ -1581,7 +1697,9 @@
     "Christopher G. Albert"
    ],
    "authors_total": 8,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1017/s0022377822000769",
    "id": "F4WZ3NSN",
    "invited": false,
@@ -1605,7 +1723,9 @@
     "Oszkár Bíró"
    ],
    "authors_total": 3,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1016/j.cpc.2022.108401",
    "id": "HY48FTKF",
    "invited": false,
@@ -1636,7 +1756,9 @@
     "V. Bandaru"
    ],
    "authors_total": 411,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1088/1741-4326/ac207f",
    "id": "5AMNIZNE",
    "invited": false,
@@ -1660,7 +1782,9 @@
     "Udo von Toussaint"
    ],
    "authors_total": 3,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.3390/e24020231",
    "id": "ZKRM2AK8",
    "invited": false,
@@ -1687,7 +1811,9 @@
     "W Kernbichler"
    ],
    "authors_total": 6,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": null,
    "id": "XW48XUX7",
    "invited": false,
@@ -1717,7 +1843,9 @@
     "W Suttrop"
    ],
    "authors_total": 9,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": null,
    "id": "LJ9A6JGD",
    "invited": false,
@@ -1743,7 +1871,9 @@
     "A A Savchenko"
    ],
    "authors_total": 5,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": null,
    "id": "WKA72WRS",
    "invited": false,
@@ -1768,7 +1898,9 @@
     "Udo von Toussaint"
    ],
    "authors_total": 4,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1063/5.0048129",
    "id": "RP3GZBCU",
    "invited": false,
@@ -1792,7 +1924,9 @@
     "Udo von Toussaint"
    ],
    "authors_total": 3,
-   "category": "talk",
+   "categories": [
+    "talk"
+   ],
    "doi": null,
    "id": "BCZD29XV",
    "invited": false,
@@ -1816,7 +1950,9 @@
     "Udo von Toussaint"
    ],
    "authors_total": 3,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.3390/psf2021003011",
    "id": "FASI9CBW",
    "invited": false,
@@ -1841,7 +1977,9 @@
     "Udo von Toussaint"
    ],
    "authors_total": 4,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.3390/psf2021003005",
    "id": "EHTTQ2H4",
    "invited": false,
@@ -1863,7 +2001,9 @@
     "Christopher G. Albert"
    ],
    "authors_total": 1,
-   "category": "talk",
+   "categories": [
+    "talk"
+   ],
    "doi": null,
    "id": "ACB6INEN",
    "invited": true,
@@ -1889,7 +2029,9 @@
     "M Scheidt"
    ],
    "authors_total": 5,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": null,
    "id": "RNQS2NN9",
    "invited": false,
@@ -1911,7 +2053,9 @@
     "Christopher G. Albert"
    ],
    "authors_total": 1,
-   "category": "talk",
+   "categories": [
+    "talk"
+   ],
    "doi": null,
    "id": "64ASB77J",
    "invited": true,
@@ -1937,7 +2081,9 @@
     "W. Kernbichler"
    ],
    "authors_total": 5,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1063/5.0022117",
    "id": "6ALSW3EZ",
    "invited": false,
@@ -1961,7 +2107,9 @@
     "W Kernbichler"
    ],
    "authors_total": 3,
-   "category": "software",
+   "categories": [
+    "software"
+   ],
    "doi": "10.5281/zenodo.3672031",
    "id": "CPEG7IXT",
    "invited": false,
@@ -1985,7 +2133,9 @@
     "Winfried Kernbichler"
    ],
    "authors_total": 3,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1016/j.jcp.2019.109065",
    "id": "P7WT8VLI",
    "invited": false,
@@ -2008,7 +2158,9 @@
     "Katharina Rath"
    ],
    "authors_total": 2,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.3390/e22020152",
    "id": "7GXNG524",
    "invited": false,
@@ -2030,7 +2182,9 @@
     "Christopher G. Albert"
    ],
    "authors_total": 1,
-   "category": "talk",
+   "categories": [
+    "talk"
+   ],
    "doi": null,
    "id": "GKNKU8WI",
    "invited": true,
@@ -2052,7 +2206,9 @@
     "Christopher Albert"
    ],
    "authors_total": 1,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": null,
    "id": "Z8NLA878",
    "invited": false,
@@ -2076,7 +2232,9 @@
     "Winfried Kernbichler"
    ],
    "authors_total": 3,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1017/s0022377820000203",
    "id": "4P6Q6QCB",
    "invited": false,
@@ -2107,7 +2265,9 @@
     "K Behler"
    ],
    "authors_total": 400,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1088/1741-4326/ab18b8",
    "id": "CTYK3SQB",
    "invited": false,
@@ -2138,7 +2298,9 @@
     "A. Merle"
    ],
    "authors_total": 465,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1088/1741-4326/ab2211",
    "id": "A5K2VZ8T",
    "invited": false,
@@ -2160,7 +2322,9 @@
     "Christopher Albert"
    ],
    "authors_total": 1,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.18154/rwth-conv-238988",
    "id": "T4LUJ35L",
    "invited": false,
@@ -2186,7 +2350,9 @@
     "W Kernbichler"
    ],
    "authors_total": 5,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": null,
    "id": "JZK4JCWS",
    "invited": false,
@@ -2210,7 +2376,9 @@
     "Winfried Kernbichler"
    ],
    "authors_total": 3,
-   "category": "talk",
+   "categories": [
+    "talk"
+   ],
    "doi": null,
    "id": "FFQKUDC7",
    "invited": false,
@@ -2232,7 +2400,9 @@
     "Christopher G. Albert"
    ],
    "authors_total": 1,
-   "category": "talk",
+   "categories": [
+    "talk"
+   ],
    "doi": null,
    "id": "ZITPKFC3",
    "invited": true,
@@ -2257,7 +2427,9 @@
     "U von Toussaint"
    ],
    "authors_total": 4,
-   "category": "poster",
+   "categories": [
+    "poster"
+   ],
    "doi": null,
    "id": "ZWFPTUSC",
    "invited": false,
@@ -2279,7 +2451,9 @@
     "Christopher G. Albert"
    ],
    "authors_total": 1,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.3390/proceedings2019033005",
    "id": "NDXAL22T",
    "invited": false,
@@ -2301,7 +2475,9 @@
     "Christopher G. Albert"
    ],
    "authors_total": 1,
-   "category": "talk",
+   "categories": [
+    "talk"
+   ],
    "doi": null,
    "id": "WZ2WX64V",
    "invited": false,
@@ -2325,7 +2501,9 @@
     "W Kernbichler"
    ],
    "authors_total": 3,
-   "category": "talk",
+   "categories": [
+    "talk"
+   ],
    "doi": null,
    "id": "M28IUMN6",
    "invited": false,
@@ -2349,7 +2527,9 @@
     "Wolfgang von der Linden"
    ],
    "authors_total": 3,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.4271/2018-01-1470",
    "id": "G9PW5ET8",
    "invited": false,
@@ -2372,7 +2552,9 @@
     "Klaus Lichtenegger"
    ],
    "authors_total": 2,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1007/978-3-662-57297-9",
    "id": "VIC5CZ4F",
    "invited": false,
@@ -2395,7 +2577,9 @@
     "Klaus Lichtenegger"
    ],
    "authors_total": 2,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": null,
    "id": "AGSTJDJT",
    "invited": false,
@@ -2417,7 +2601,9 @@
     "Christopher G. Albert"
    ],
    "authors_total": 1,
-   "category": "talk",
+   "categories": [
+    "talk"
+   ],
    "doi": null,
    "id": "64D47TJR",
    "invited": true,
@@ -2442,7 +2628,9 @@
     "the EUROfusion MST1 team Kernbichler"
    ],
    "authors_total": 4,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": null,
    "id": "FUTUI8CV",
    "invited": false,
@@ -2464,7 +2652,9 @@
     "Christopher G. Albert"
    ],
    "authors_total": 1,
-   "category": "talk",
+   "categories": [
+    "talk"
+   ],
    "doi": null,
    "id": "NI57BD9R",
    "invited": true,
@@ -2490,7 +2680,9 @@
     "Winfried Kernbichler"
    ],
    "authors_total": 5,
-   "category": "poster",
+   "categories": [
+    "poster"
+   ],
    "doi": null,
    "id": "NXF8GBK4",
    "invited": false,
@@ -2517,7 +2709,9 @@
     "AM Runov"
    ],
    "authors_total": 6,
-   "category": "poster",
+   "categories": [
+    "poster"
+   ],
    "doi": null,
    "id": "NWKTWA82",
    "invited": false,
@@ -2543,7 +2737,9 @@
     "A F Martitsch"
    ],
    "authors_total": 5,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": null,
    "id": "W83C438R",
    "invited": false,
@@ -2571,7 +2767,9 @@
     "M F Heyn"
    ],
    "authors_total": 7,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1088/0741-3335/58/10/104001",
    "id": "EV79TXTE",
    "invited": false,
@@ -2596,7 +2794,9 @@
     "Jan Rejlek"
    ],
    "authors_total": 4,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1016/j.apacoust.2016.05.006",
    "id": "ITNE82F4",
    "invited": false,
@@ -2623,7 +2823,9 @@
     "A M Runov"
    ],
    "authors_total": 6,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1088/1742-6596/775/1/012001",
    "id": "6HEYUCQR",
    "invited": false,
@@ -2650,7 +2852,9 @@
     "Andreas F. Martitsch"
    ],
    "authors_total": 6,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1063/1.4961084",
    "id": "GZVFMLTG",
    "invited": false,
@@ -2681,7 +2885,9 @@
     "W. Suttrop"
    ],
    "authors_total": 13,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1088/0741-3335/58/7/074007",
    "id": "EIUQFI6E",
    "invited": false,
@@ -2703,7 +2909,9 @@
     "Christopher G. Albert"
    ],
    "authors_total": 1,
-   "category": "talk",
+   "categories": [
+    "talk"
+   ],
    "doi": null,
    "id": "97HE6Y2F",
    "invited": true,
@@ -2725,7 +2933,9 @@
     "Christopher G. Albert"
    ],
    "authors_total": 1,
-   "category": "talk",
+   "categories": [
+    "talk"
+   ],
    "doi": null,
    "id": "MC5CCPET",
    "invited": false,
@@ -2752,7 +2962,9 @@
     "A F Martitsch"
    ],
    "authors_total": 6,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": null,
    "id": "54F46D44",
    "invited": false,
@@ -2779,7 +2991,9 @@
     "Patrick Lainer"
    ],
    "authors_total": 6,
-   "category": "talk",
+   "categories": [
+    "talk"
+   ],
    "doi": null,
    "id": "IQ5W5IXK",
    "invited": false,
@@ -2805,7 +3019,9 @@
     "Andreas Frank Martitsch"
    ],
    "authors_total": 5,
-   "category": "poster",
+   "categories": [
+    "poster"
+   ],
    "doi": null,
    "id": "2KAQE53F",
    "invited": false,
@@ -2827,7 +3043,9 @@
     "Christopher G. Albert"
    ],
    "authors_total": 1,
-   "category": "talk",
+   "categories": [
+    "talk"
+   ],
    "doi": null,
    "id": "7KRFJQAF",
    "invited": false,
@@ -2853,7 +3071,9 @@
     "A. F. Martitsch"
    ],
    "authors_total": 5,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": null,
    "id": "9Q76QMQA",
    "invited": false,
@@ -2879,7 +3099,9 @@
     "Andreas Frank Martitsch"
    ],
    "authors_total": 5,
-   "category": "poster",
+   "categories": [
+    "poster"
+   ],
    "doi": null,
    "id": "IDZTL2JA",
    "invited": false,
@@ -2904,7 +3126,9 @@
     "Christopher Albert"
    ],
    "authors_total": 4,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.1007/978-3-319-24055-8_7",
    "id": "MGCY3RUQ",
    "invited": false,
@@ -2930,7 +3154,9 @@
     "Arnaud Bocquillet"
    ],
    "authors_total": 5,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.4271/2014-01-2092",
    "id": "D3J4UMIJ",
    "invited": false,
@@ -2956,7 +3182,9 @@
     "Arnaud Bocquillet"
    ],
    "authors_total": 5,
-   "category": "paper",
+   "categories": [
+    "paper"
+   ],
    "doi": "10.4271/2013-01-1997",
    "id": "Y4T2EKAL",
    "invited": false,
@@ -2978,7 +3206,9 @@
     "C. G. Albert"
    ],
    "authors_total": 1,
-   "category": "other",
+   "categories": [
+    "other"
+   ],
    "doi": null,
    "id": "N4FNHNIN",
    "invited": false,

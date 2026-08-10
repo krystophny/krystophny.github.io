@@ -217,7 +217,7 @@
         function render() {
             var tokens = fold(state.q).split(/\s+/).filter(Boolean);
             var rows = data.items.filter(function (item) {
-                if (state.type && item.category !== state.type) { return false; }
+                if (state.type && item.categories.indexOf(state.type) === -1) { return false; }
                 return !tokens.length || matches(item, tokens);
             });
             if (state.order === "old") {
