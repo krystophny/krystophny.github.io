@@ -1,7 +1,7 @@
 {
  "authors": [
   {
-   "count": 115,
+   "count": 114,
    "label": "Albert",
    "value": "albert"
   },
@@ -11,17 +11,17 @@
    "value": "grassler"
   },
   {
-   "count": 27,
+   "count": 26,
    "label": "Heyn",
    "value": "heyn"
   },
   {
-   "count": 57,
+   "count": 56,
    "label": "Kasilov",
    "value": "kasilov"
   },
   {
-   "count": 49,
+   "count": 48,
    "label": "Kernbichler",
    "value": "kernbichler"
   },
@@ -31,7 +31,7 @@
    "value": "lainer"
   },
   {
-   "count": 21,
+   "count": 20,
    "label": "Markl",
    "value": "markl"
   },
@@ -46,8 +46,8 @@
    "value": "zenz"
   }
  ],
- "count": 120,
- "generated_at": "2026-08-10T22:50:11+00:00",
+ "count": 119,
+ "generated_at": "2026-08-10T22:59:30+00:00",
  "items": [
   {
    "authors": [
@@ -96,6 +96,8 @@
    "note": null,
    "open_access": true,
    "pages": "100262",
+   "pdf": "https://www.sciencedirect.com/science/article/pii/S2666955226000377/pdfft",
+   "pdf_kind": "open access",
    "peer_reviewed": true,
    "search": "comparative analysis of optimization models for control of hydrogen multi-energy systems smart energy 2026 10.1016/j.segy.2026.100262 riederer kury lichtenegger muschick kaisermayer albert radner siegl golles",
    "sort": "2026-08",
@@ -124,6 +126,8 @@
    "note": null,
    "open_access": true,
    "pages": "070703",
+   "pdf": "https://pubs.aip.org/aip/pop/article-pdf/doi/10.1063/5.0332431/21074726/070703_1_5.0332431.pdf",
+   "pdf_kind": "open access",
    "peer_reviewed": true,
    "search": "asymptotic modeling of the bootstrap and ware pinch effect in near omnigenous stellarators physics of plasmas 2026 10.1063/5.0332431 grassler albert kasilov kernbichler",
    "sort": "2026-07-01",
@@ -1323,6 +1327,8 @@
    "note": null,
    "open_access": true,
    "pages": "114010",
+   "pdf": "https://www.sciencedirect.com/science/article/pii/S0920379623005926/pdfft",
+   "pdf_kind": "open access",
    "peer_reviewed": true,
    "search": "studies on eu-demo 3d coils requirements and conceptual design for error field correction and plasma control fusion engineering and design 2023 10.1016/j.fusengdes.2023.114010 maviglia pigatto villone zohm albert bruzzone buchholz drumm gerardin liu luongo siccinio wiesen",
    "sort": "2023-11-01",
@@ -1747,35 +1753,6 @@
   },
   {
    "authors": [
-    "M. Markl",
-    "M.F. Heyn",
-    "S.V. Kasilov",
-    "W. Kernbichler",
-    "C.G. Albert"
-   ],
-   "authors_total": 5,
-   "categories": [
-    "paper"
-   ],
-   "doi": "10.46813/2022-142-009",
-   "id": "RKTKR323",
-   "invited": false,
-   "issue": null,
-   "note": null,
-   "open_access": true,
-   "pages": "9-12",
-   "peer_reviewed": true,
-   "search": "non-axisymmetric neoclassical transport from mis-alignment of equipotential and magnetic surfaces problems of atomic science and technology 2022 10.46813/2022-142-009 markl heyn kasilov kernbichler albert",
-   "sort": "2022-12-08",
-   "title": "Non-axisymmetric neoclassical transport from mis-alignment of equipotential and magnetic surfaces",
-   "type": "article",
-   "url": "https://doi.org/10.46813/2022-142-009",
-   "venue": "Problems of Atomic Science and Technology",
-   "volume": null,
-   "year": 2022
-  },
-  {
-   "authors": [
     "C. G. Albert",
     "K. Rath",
     "R. Babin",
@@ -2077,18 +2054,19 @@
    "categories": [
     "paper"
    ],
-   "doi": null,
+   "doi": "10.46813/2022-142-009",
    "id": "VA35NIRD",
    "invited": false,
    "issue": "6",
    "note": null,
-   "pages": null,
+   "open_access": true,
+   "pages": "9-12",
    "peer_reviewed": true,
-   "search": "non-axisymmetric neoclassical transport from misalignment of equipotential and magnetic surfaces in: problems of atomic science and technology 2022 markl heyn kasilov kernbichler albert",
+   "search": "non-axisymmetric neoclassical transport from misalignment of equipotential and magnetic surfaces in: problems of atomic science and technology 2022 10.46813/2022-142-009 markl heyn kasilov kernbichler albert",
    "sort": "2022-01-01",
    "title": "Non-axisymmetric Neoclassical Transport From Misalignment of Equipotential and Magnetic Surfaces",
    "type": "article",
-   "url": "https://tugraz.elsevierpure.com/en/publications/non-axisymmetric-neoclassical-transport-from-mis-alignment-of-equ/",
+   "url": "https://doi.org/10.46813/2022-142-009",
    "venue": "In: Problems of Atomic Science and Technology",
    "volume": "142",
    "year": 2022
@@ -3544,12 +3522,12 @@
    "note": null,
    "pages": null,
    "peer_reviewed": false,
-   "search": "efficient modelling and characterisation techniques for vehicle noise prediction 2013 rejlek nijman veronesi albert",
+   "search": "efficient modelling and characterisation techniques for vehicle noise prediction automotive cae grand challenge 2013 2013 rejlek nijman veronesi albert",
    "sort": "2013-04-10",
    "title": "Efficient modelling and characterisation techniques for vehicle noise prediction",
    "type": "conference",
    "url": "https://tugraz.elsevierpure.com/en/publications/efficient-modelling-and-characterisation-techniques-for-vehicle-n/",
-   "venue": null,
+   "venue": "automotive CAE Grand Challenge 2013",
    "volume": null,
    "year": 2013
   },
