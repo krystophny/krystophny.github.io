@@ -38,7 +38,7 @@
     }
 
     function readState(root) {
-        var state = { q: "", type: "", order: "new", page: 1 };
+        var state = { q: "", type: "", author: "", order: "new", page: 1 };
         var hash = window.location.hash.replace(/^#/, "");
         if (!hash) { return state; }
         hash.split("&").forEach(function (pair) {
@@ -47,6 +47,7 @@
             var value = decodeURIComponent((bits[1] || "").replace(/\+/g, " "));
             if (key === "q") { state.q = value; }
             if (key === "type") { state.type = value; }
+            if (key === "author") { state.author = fold(value); }
             if (key === "order" && value === "old") { state.order = "old"; }
             if (key === "p") { state.page = Math.max(1, parseInt(value, 10) || 1); }
         });
@@ -57,6 +58,7 @@
         var parts = [];
         if (state.q) { parts.push("q=" + encodeURIComponent(state.q)); }
         if (state.type) { parts.push("type=" + encodeURIComponent(state.type)); }
+        if (state.author) { parts.push("author=" + encodeURIComponent(state.author)); }
         if (state.order === "old") { parts.push("order=old"); }
         if (state.page > 1) { parts.push("p=" + state.page); }
         var hash = parts.length ? "#" + parts.join("&") : " ";
@@ -70,6 +72,22 @@
             if (item.search.indexOf(tokens[i]) === -1) { return false; }
         }
         return true;
+    }
+
+    /* The search blob holds every surname, including those truncated out of
+     * the display, so an author filter needs no extra payload. Match on word
+     * boundaries: a bare indexOf would let "Ida" select "Idaho". */
+    var authorPatterns = {};
+
+    function byAuthor(item, name) {
+        if (!name) { return true; }
+        var pattern = authorPatterns[name];
+        if (!pattern) {
+            var escaped = name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+            pattern = new RegExp("(^|[^a-z0-9])" + escaped + "([^a-z0-9]|$)");
+            authorPatterns[name] = pattern;
+        }
+        return pattern.test(item.search);
     }
 
     function citation(item) {
@@ -190,6 +208,21 @@
         typeSelect.value = state.type;
         controls.appendChild(typeSelect);
 
+        var authorSelect = el("select", "pubs__select");
+        authorSelect.setAttribute("aria-label", "Filter by author");
+        authorSelect.appendChild(new Option("All authors", ""));
+        (data.authors || []).forEach(function (entry) {
+            authorSelect.appendChild(
+                new Option(entry.label + " (" + entry.count + ")", entry.value));
+        });
+        authorSelect.value = state.author;
+        if (state.author && authorSelect.value !== state.author) {
+            // A deep link may name someone below the facet threshold.
+            authorSelect.appendChild(new Option(state.author, state.author));
+            authorSelect.value = state.author;
+        }
+        if ((data.authors || []).length) { controls.appendChild(authorSelect); }
+
         var orderSelect = el("select", "pubs__select");
         orderSelect.setAttribute("aria-label", "Sort order");
         orderSelect.appendChild(new Option("Newest first", "new"));
@@ -218,6 +251,7 @@
             var tokens = fold(state.q).split(/\s+/).filter(Boolean);
             var rows = data.items.filter(function (item) {
                 if (state.type && item.categories.indexOf(state.type) === -1) { return false; }
+                if (!byAuthor(item, state.author)) { return false; }
                 return !tokens.length || matches(item, tokens);
             });
             if (state.order === "old") {
@@ -254,6 +288,11 @@
                 render();
             }, 120);
         });
+        authorSelect.addEventListener("change", function () {
+            state.author = authorSelect.value;
+            state.page = 1;
+            render();
+        });
         typeSelect.addEventListener("change", function () {
             state.type = typeSelect.value;
             state.page = 1;
@@ -268,6 +307,7 @@
             state = readState(root);
             search.value = state.q;
             typeSelect.value = state.type;
+            authorSelect.value = state.author;
             orderSelect.value = state.order;
             render();
         });
