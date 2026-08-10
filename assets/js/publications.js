@@ -140,6 +140,17 @@
             meta.appendChild(el("span", "pubs__doi", item.doi));
         }
         if (item.invited) { meta.appendChild(el("span", "pubs__tag", "Invited")); }
+        var full = safeHref(item.pdf);
+        if (full) {
+            meta.appendChild(document.createTextNode(" "));
+            var pdf = el("a", "pubs__pdf", "[pdf]");
+            pdf.setAttribute("href", full);
+            pdf.setAttribute("rel", "noopener");
+            pdf.setAttribute("title", item.pdf_kind === "archive"
+                ? "Full text from the institute archive"
+                : "Open-access full text");
+            meta.appendChild(pdf);
+        }
         li.appendChild(meta);
         return li;
     }
