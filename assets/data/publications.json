@@ -1,6 +1,6 @@
 {
- "count": 114,
- "generated_at": "2026-08-10T20:20:42+00:00",
+ "count": 126,
+ "generated_at": "2026-08-10T20:25:07+00:00",
  "items": [
   {
    "authors": [
@@ -283,6 +283,88 @@
    "venue": "Journal of Open Source Software",
    "volume": "11",
    "year": 2026
+  },
+  {
+   "authors": [
+    "M. Markl",
+    "S. Kasilov",
+    "C. G. Albert",
+    "P. Lainer",
+    "P. Zenz"
+   ],
+   "authors_total": 5,
+   "categories": [
+    "poster"
+   ],
+   "doi": null,
+   "id": "7MZA2PN9",
+   "invited": false,
+   "issue": null,
+   "note": null,
+   "pages": null,
+   "peer_reviewed": false,
+   "search": "toward understanding the impact of ion species in the plasma response to magnetic perturbations 2025 markl kasilov albert lainer zenz",
+   "sort": "2025-09-23",
+   "title": "Toward understanding the impact of ion species in the plasma response to magnetic perturbations",
+   "type": "poster",
+   "url": "https://tugraz.elsevierpure.com/en/publications/toward-understanding-the-impact-of-ion-species-in-the-plasma-resp/",
+   "venue": null,
+   "volume": null,
+   "year": 2025
+  },
+  {
+   "authors": [
+    "G. S. Graßler",
+    "S. Kasilov",
+    "W. Kernbichler",
+    "C. G. Albert"
+   ],
+   "authors_total": 4,
+   "categories": [
+    "poster"
+   ],
+   "doi": null,
+   "id": "J4QICTUP",
+   "invited": false,
+   "issue": null,
+   "note": null,
+   "pages": null,
+   "peer_reviewed": false,
+   "search": "computationally efficient calculation of bootstrap current for nearly omnigeneous devices 2025 graßler kasilov kernbichler albert",
+   "sort": "2025-09-23",
+   "title": "Computationally efficient calculation of bootstrap current for nearly omnigeneous devices",
+   "type": "poster",
+   "url": "https://tugraz.elsevierpure.com/en/publications/computationally-efficient-calculation-of-bootstrap-current-for-ne/",
+   "venue": null,
+   "volume": null,
+   "year": 2025
+  },
+  {
+   "authors": [
+    "G. S. Graßler",
+    "S. Kasilov",
+    "C. G. Albert",
+    "W. Kernbichler"
+   ],
+   "authors_total": 4,
+   "categories": [
+    "poster"
+   ],
+   "doi": null,
+   "id": "8ZKWNQMF",
+   "invited": false,
+   "issue": null,
+   "note": null,
+   "pages": null,
+   "peer_reviewed": false,
+   "search": "fast bootstrap current evaluation in devices close to omnigeneity 2025 graßler kasilov albert kernbichler",
+   "sort": "2025-09-10",
+   "title": "Fast bootstrap current evaluation in devices close to omnigeneity",
+   "type": "poster",
+   "url": "https://tugraz.elsevierpure.com/en/publications/fast-bootstrap-current-evaluation-in-devices-close-to-omnigeneity/",
+   "venue": null,
+   "volume": null,
+   "year": 2025
   },
   {
    "authors": [
@@ -1744,6 +1826,38 @@
   },
   {
    "authors": [
+    "Christopher Albert",
+    "Maximilian Kendler",
+    "Robert Babin",
+    "Michael Hadwiger",
+    "Richard Hofmeister",
+    "Manal Khallaayoune",
+    "Francesco Kramp",
+    "Katharina Rath",
+    "Baptiste Rubino-Moyner"
+   ],
+   "authors_total": 9,
+   "categories": [
+    "software"
+   ],
+   "doi": "10.5281/zenodo.6624446",
+   "id": "I8SUMDE8",
+   "invited": false,
+   "issue": null,
+   "note": null,
+   "pages": null,
+   "peer_reviewed": false,
+   "search": "profit: probabilistic response model fitting with interactive tools zenodo 2022 10.5281/zenodo.6624446 albert kendler babin hadwiger hofmeister khallaayoune kramp rath rubino-moyner",
+   "sort": "2022-06-08",
+   "title": "proFit: Probabilistic Response Model Fitting with Interactive Tools",
+   "type": "software",
+   "url": "https://doi.org/10.5281/zenodo.6624446",
+   "venue": "Zenodo",
+   "volume": null,
+   "year": 2022
+  },
+  {
+   "authors": [
     "U. Stroth",
     "D. Aguiam",
     "E. Alessi",
@@ -1799,6 +1913,34 @@
    "url": "https://doi.org/10.3390/e24020231",
    "venue": "Entropy",
    "volume": "24",
+   "year": 2022
+  },
+  {
+   "authors": [
+    "M. Markl",
+    "M. F. Heyn",
+    "S. V. Kasilov",
+    "W. Kernbichler",
+    "C. G. Albert"
+   ],
+   "authors_total": 5,
+   "categories": [
+    "paper"
+   ],
+   "doi": null,
+   "id": "VA35NIRD",
+   "invited": false,
+   "issue": "6",
+   "note": null,
+   "pages": null,
+   "peer_reviewed": true,
+   "search": "non-axisymmetric neoclassical transport from misalignment of equipotential and magnetic surfaces in: problems of atomic science and technology 2022 markl heyn kasilov kernbichler albert",
+   "sort": "2022-01-01",
+   "title": "Non-axisymmetric Neoclassical Transport From Misalignment of Equipotential and Magnetic Surfaces",
+   "type": "article",
+   "url": "https://tugraz.elsevierpure.com/en/publications/non-axisymmetric-neoclassical-transport-from-mis-alignment-of-equ/",
+   "venue": "In: Problems of Atomic Science and Technology",
+   "volume": "142",
    "year": 2022
   },
   {
@@ -2207,7 +2349,7 @@
    ],
    "authors_total": 1,
    "categories": [
-    "paper"
+    "book"
    ],
    "doi": null,
    "id": "Z8NLA878",
@@ -2578,7 +2720,7 @@
    ],
    "authors_total": 2,
    "categories": [
-    "paper"
+    "book"
    ],
    "doi": null,
    "id": "AGSTJDJT",
@@ -2674,6 +2816,63 @@
   {
    "authors": [
     "Andreas Frank Martitsch",
+    "Christopher G. Albert",
+    "Gernot Kapper",
+    "Sergei Kasilov",
+    "Winfried Kernbichler"
+   ],
+   "authors_total": 5,
+   "categories": [
+    "paper"
+   ],
+   "doi": null,
+   "id": "6AQKGSED",
+   "invited": false,
+   "issue": null,
+   "note": null,
+   "pages": "P2-2",
+   "peer_reviewed": false,
+   "search": "modeling of the neoclassical toroidal viscous torque in tokamak plasmas with multiple species: 21st international stellarator-heliotron workshop 2017 martitsch albert kapper kasilov kernbichler",
+   "sort": "2017-10-03",
+   "title": "Modeling of the neoclassical toroidal viscous torque in tokamak plasmas with multiple species: 21st International Stellarator-Heliotron Workshop",
+   "type": "conference",
+   "url": null,
+   "venue": null,
+   "volume": null,
+   "year": 2017
+  },
+  {
+   "authors": [
+    "Christopher G. Albert",
+    "Martin Heyn",
+    "Sergei Kasilov",
+    "Winfried Kernbichler",
+    "Andreas Frank Martitsch",
+    "A M Runov"
+   ],
+   "authors_total": 6,
+   "categories": [
+    "paper"
+   ],
+   "doi": null,
+   "id": "5B3NBP2N",
+   "invited": false,
+   "issue": null,
+   "note": null,
+   "pages": "P2-4",
+   "peer_reviewed": false,
+   "search": "modeling of perturbed 3d equilibria using preconditioned iterations: 21st international stellarator-heliotron workshop 2017 albert heyn kasilov kernbichler martitsch runov",
+   "sort": "2017-10",
+   "title": "Modeling of perturbed 3D equilibria using preconditioned iterations: 21st International Stellarator-Heliotron Workshop",
+   "type": "conference",
+   "url": null,
+   "venue": null,
+   "volume": null,
+   "year": 2017
+  },
+  {
+   "authors": [
+    "Andreas Frank Martitsch",
     "Christopher G Albert",
     "Gernot Kapper",
     "Sergei Kasilov",
@@ -2755,6 +2954,35 @@
    "venue": "44th EPS Conference on Plasma Physics",
    "volume": null,
    "year": 2017
+  },
+  {
+   "authors": [
+    "Christopher G. Albert",
+    "Martin Heyn",
+    "Sergei Kasilov",
+    "Gernot Kapper",
+    "Winfried Kernbichler",
+    "Andreas Frank Martitsch"
+   ],
+   "authors_total": 6,
+   "categories": [
+    "paper"
+   ],
+   "doi": null,
+   "id": "2SMFVJHT",
+   "invited": false,
+   "issue": null,
+   "note": null,
+   "pages": null,
+   "peer_reviewed": false,
+   "search": "hamiltonian approach to non-linear resonant transport regimes in non-axisymmetrically perturbed tokamak plasmas: fusion@oaw - 3. fusionstag 2016 albert heyn kasilov kapper kernbichler martitsch",
+   "sort": "2016-11-16",
+   "title": "Hamiltonian approach to non-linear resonant transport regimes in non-axisymmetrically perturbed tokamak plasmas: Fusion@ÖAW - 3. Fusionstag",
+   "type": "conference",
+   "url": null,
+   "venue": null,
+   "volume": null,
+   "year": 2016
   },
   {
    "authors": [
@@ -3020,6 +3248,34 @@
    ],
    "authors_total": 5,
    "categories": [
+    "paper"
+   ],
+   "doi": null,
+   "id": "8ES6RSVK",
+   "invited": false,
+   "issue": null,
+   "note": null,
+   "pages": null,
+   "peer_reviewed": false,
+   "search": "toroidal torque in resonant transport regimes of tokamak plasmas with perturbed axisymmetry within hamiltonian theory: 20th international stellarator-heliotron workshop (ishw) 2015 albert heyn kasilov kernbichler martitsch",
+   "sort": "2015",
+   "title": "Toroidal torque in resonant transport regimes of tokamak plasmas with perturbed axisymmetry within Hamiltonian theory: 20th International Stellarator-Heliotron Workshop (ISHW)",
+   "type": "conference",
+   "url": null,
+   "venue": null,
+   "volume": null,
+   "year": 2015
+  },
+  {
+   "authors": [
+    "Christopher Albert",
+    "Martin Heyn",
+    "Sergei Kasilov",
+    "Winfried Kernbichler",
+    "Andreas Frank Martitsch"
+   ],
+   "authors_total": 5,
+   "categories": [
     "poster"
    ],
    "doi": null,
@@ -3127,7 +3383,7 @@
    ],
    "authors_total": 4,
    "categories": [
-    "paper"
+    "book"
    ],
    "doi": "10.1007/978-3-319-24055-8_7",
    "id": "MGCY3RUQ",
@@ -3175,6 +3431,30 @@
   },
   {
    "authors": [
+    "Christopher Albert"
+   ],
+   "authors_total": 1,
+   "categories": [
+    "book"
+   ],
+   "doi": null,
+   "id": "PFHXB33F",
+   "invited": false,
+   "issue": null,
+   "note": null,
+   "pages": null,
+   "peer_reviewed": true,
+   "search": "neoclassical toroidal viscosity due to drift orbit resonances . 2014 albert",
+   "sort": "2014",
+   "title": "Neoclassical Toroidal Viscosity due to Drift Orbit Resonances",
+   "type": "book",
+   "url": null,
+   "venue": ".",
+   "volume": null,
+   "year": 2014
+  },
+  {
+   "authors": [
     "Jan Rejlek",
     "Giorgio Veronesi",
     "Christopher Albert",
@@ -3200,6 +3480,57 @@
    "venue": "SAE Technical Paper",
    "volume": null,
    "year": 2013
+  },
+  {
+   "authors": [
+    "J. Rejlek",
+    "E. Nijman",
+    "G. Veronesi",
+    "C. Albert"
+   ],
+   "authors_total": 4,
+   "categories": [
+    "paper"
+   ],
+   "doi": null,
+   "id": "RR6NB5IF",
+   "invited": false,
+   "issue": null,
+   "note": null,
+   "pages": null,
+   "peer_reviewed": false,
+   "search": "efficient modelling and characterisation techniques for vehicle noise prediction 2013 rejlek nijman veronesi albert",
+   "sort": "2013-04-10",
+   "title": "Efficient modelling and characterisation techniques for vehicle noise prediction",
+   "type": "conference",
+   "url": "https://tugraz.elsevierpure.com/en/publications/efficient-modelling-and-characterisation-techniques-for-vehicle-n/",
+   "venue": null,
+   "volume": null,
+   "year": 2013
+  },
+  {
+   "authors": [
+    "C. Albert"
+   ],
+   "authors_total": 1,
+   "categories": [
+    "paper"
+   ],
+   "doi": null,
+   "id": "KBPXS8GZ",
+   "invited": false,
+   "issue": null,
+   "note": null,
+   "pages": null,
+   "peer_reviewed": false,
+   "search": "vibro-acoustic coupling of structural, porous and fluid domains based on simulation and experiment 2012 albert",
+   "sort": "2012-01-01",
+   "title": "Vibro-acoustic coupling of structural, porous and fluid domains based on simulation and experiment",
+   "type": "thesis",
+   "url": "https://tugraz.elsevierpure.com/en/publications/vibro-acoustic-coupling-of-structural-porous-and-fluid-domains-ba/",
+   "venue": null,
+   "volume": null,
+   "year": 2012
   },
   {
    "authors": [
@@ -3246,6 +3577,10 @@
   {
    "label": "Papers",
    "value": "paper"
+  },
+  {
+   "label": "Books and chapters",
+   "value": "book"
   },
   {
    "label": "Talks",
