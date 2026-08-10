@@ -3,3 +3,62 @@
 ---
 
 @import "minima";
+
+/* Light and dark.
+ *
+ * minima 2.5 has no dark skin, so the palette lives here as two sets of
+ * tokens. Only surfaces are themed; the publication list inherits them.
+ */
+:root {
+    color-scheme: light dark;
+    --page-bg: #fdfdfd;
+    --page-fg: #111111;
+    --page-muted: #828282;
+    --page-rule: #e8e8e8;
+    --page-link: #2a7ae2;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --page-bg: #14171c;
+        --page-fg: #e7e9ec;
+        --page-muted: #a9b0b8;
+        --page-rule: #2b3038;
+        --page-link: #7fb2ff;
+    }
+}
+
+body {
+    background-color: var(--page-bg);
+    color: var(--page-fg);
+}
+
+a,
+a:visited {
+    color: var(--page-link);
+}
+
+.site-header,
+.site-footer,
+hr {
+    border-color: var(--page-rule);
+}
+
+.site-title,
+.site-title:visited,
+.page-link,
+.page-link:visited {
+    color: var(--page-fg);
+}
+
+.site-footer,
+.post-meta,
+.footer-col-wrapper {
+    color: var(--page-muted);
+}
+
+pre,
+code {
+    background-color: var(--page-rule);
+    border-color: var(--page-rule);
+}
