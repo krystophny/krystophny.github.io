@@ -31,7 +31,7 @@ High-performance computing and parallelization.
 Selected publications
 ------------
 
-For a full list see [Google Scholar](https://scholar.google.com/citations?hl=en&user=nMhOjWIAAAAJ) or [https://orcid.org/0000-0003-4773-416X](https://orcid.org/0000-0003-4773-416X)
+The complete list is under [Publications]({{ '/publications/' | relative_url }}), generated from my Zotero library. Also on [Google Scholar](https://scholar.google.com/citations?hl=en&user=nMhOjWIAAAAJ) and [ORCID](https://orcid.org/0000-0003-4773-416X).
 
 K. Rath, C. G. Albert, B. Bischl, U. von Toussaint. 
 Symplectic Gaussian Process Regression of Maps in Hamiltonian Systems.

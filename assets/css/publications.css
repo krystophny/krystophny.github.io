@@ -1,0 +1,172 @@
+/* Publication list.
+ *
+ * Works by subtraction. It sets no font, no font size, no text colour and no
+ * link colour, so it inherits whatever the host site uses: minima on the
+ * personal site, Bootstrap 5 on the group site. Spacing is in em/rem so it
+ * scales with the host font, and rules are translucent black rather than a
+ * fixed grey so they read correctly on #fdfdfd and on #fff alike.
+ *
+ * No framework classes and no var(--bs-*): the group site runs Bootstrap
+ * 5.0.2, which predates the custom-property expansion.
+ */
+
+.pubs {
+    margin: 1.5rem 0;
+}
+
+.pubs__controls {
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 0.9rem;
+}
+
+.pubs__search {
+    font: inherit;
+    color: inherit;
+    flex: 1 1 16rem;
+    min-width: 0;
+    padding: 0.4em 0.6em;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    background: transparent;
+}
+
+.pubs__select {
+    font: inherit;
+    color: inherit;
+    padding: 0.4em 0.5em;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    background: transparent;
+}
+
+.pubs__profile {
+    margin: 0 0 0.9rem;
+    font-size: 0.9em;
+    opacity: 0.85;
+}
+
+.pubs__profile a + a {
+    margin-left: 0.75em;
+}
+
+.pubs__status {
+    font-size: 0.85em;
+    opacity: 0.68;
+    margin: 0 0 0.5rem;
+}
+
+.pubs__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pubs__item {
+    padding: 0.85rem 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.pubs__item:last-child {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.pubs__title {
+    display: block;
+    font-weight: 600;
+    line-height: 1.35;
+}
+
+.pubs__authors {
+    display: block;
+    margin-top: 0.2em;
+    font-size: 0.94em;
+}
+
+.pubs__meta {
+    display: block;
+    margin-top: 0.2em;
+    font-size: 0.86em;
+    color: inherit;
+    opacity: 0.68;
+}
+
+.pubs__venue {
+    font-style: italic;
+}
+
+.pubs__tag {
+    display: inline-block;
+    margin-left: 0.5em;
+    padding: 0.05em 0.45em;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    border-radius: 3px;
+    font-size: 0.85em;
+    opacity: 0.9;
+}
+
+.pubs__doi {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 0.92em;
+}
+
+.pubs__pager {
+    display: flex;
+    gap: 0.3rem;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 1.1rem;
+}
+
+.pubs__page {
+    font: inherit;
+    color: inherit;
+    background: none;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 0.2em 0.6em;
+    cursor: pointer;
+}
+
+.pubs__page[disabled] {
+    opacity: 0.4;
+    cursor: default;
+}
+
+.pubs__page[aria-current="page"] {
+    border-color: currentColor;
+    font-weight: 600;
+}
+
+.pubs__gap {
+    opacity: 0.5;
+    padding: 0 0.2em;
+}
+
+.pubs__empty {
+    padding: 1.2rem 0;
+    opacity: 0.7;
+}
+
+@media (max-width: 40em) {
+    .pubs__controls {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .pubs__item,
+    .pubs__item:last-child {
+        border-color: rgba(255, 255, 255, 0.16);
+    }
+
+    .pubs__search,
+    .pubs__select,
+    .pubs__page,
+    .pubs__tag {
+        border-color: rgba(255, 255, 255, 0.25);
+    }
+}
