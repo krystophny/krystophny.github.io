@@ -89,9 +89,12 @@
     display: block;
     margin-top: 0.2em;
     font-size: 0.9em;
-    /* A colour rather than opacity, so the pdf link inside can be darker
-       than the rest of the line; opacity on the parent caps every child. */
-    color: rgba(0, 0, 0, 0.66);
+    /* Inherit the page's own text colour and soften it. Never set a fixed
+       colour here and never override it under prefers-color-scheme: the host
+       pages have no dark theme, so a white meta line lands on a white
+       background and the DOI and pdf link vanish. */
+    color: inherit;
+    opacity: 0.72;
 }
 
 .pubs__venue {
@@ -111,7 +114,8 @@
 .pubs__pdf {
     margin-left: 0.5em;
     white-space: nowrap;
-    font-weight: 600;
+    /* Same size as the Invited tag, so the two markers sit level. */
+    font-size: 0.85em;
     color: inherit;
 }
 
@@ -167,10 +171,6 @@
 }
 
 @media (prefers-color-scheme: dark) {
-    .pubs__meta {
-        color: rgba(255, 255, 255, 0.72);
-    }
-
     .pubs__item,
     .pubs__item:last-child {
         border-color: rgba(255, 255, 255, 0.16);
