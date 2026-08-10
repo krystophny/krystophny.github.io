@@ -1,6 +1,6 @@
 {
- "count": 126,
- "generated_at": "2026-08-10T20:25:07+00:00",
+ "count": 120,
+ "generated_at": "2026-08-10T20:27:29+00:00",
  "items": [
   {
    "authors": [
@@ -2061,32 +2061,6 @@
   },
   {
    "authors": [
-    "Christopher G Albert",
-    "Ulrich Callies",
-    "Udo von Toussaint"
-   ],
-   "authors_total": 3,
-   "categories": [
-    "talk"
-   ],
-   "doi": null,
-   "id": "BCZD29XV",
-   "invited": false,
-   "issue": null,
-   "note": "Oral presentation at 40th International Workshop on Bayesian Inference and Maximum Entropy Methods in Science and Engineering",
-   "pages": null,
-   "peer_reviewed": false,
-   "search": "surrogate-enhanced parameter inference for function-valued models 2021 albert callies von toussaint",
-   "sort": "2021",
-   "title": "Surrogate-enhanced parameter inference for function-valued models",
-   "type": "talk",
-   "url": null,
-   "venue": null,
-   "volume": null,
-   "year": 2021
-  },
-  {
-   "authors": [
     "Christopher G. Albert",
     "Ulrich Callies",
     "Udo von Toussaint"
@@ -2539,30 +2513,6 @@
   },
   {
    "authors": [
-    "Christopher G. Albert"
-   ],
-   "authors_total": 1,
-   "categories": [
-    "talk"
-   ],
-   "doi": null,
-   "id": "ZITPKFC3",
-   "invited": true,
-   "issue": null,
-   "note": "Invited oral presentation at 23rd International Congress on Acoustics, 2019, Aachen, Germany",
-   "pages": null,
-   "peer_reviewed": false,
-   "search": "physics-informed transfer path analysis with parameter estimation using gaussian processes 2019 albert",
-   "sort": "2019",
-   "title": "Physics-informed transfer path analysis with parameter estimation using Gaussian processes",
-   "type": "talk",
-   "url": null,
-   "venue": null,
-   "volume": null,
-   "year": 2019
-  },
-  {
-   "authors": [
     "K Rath",
     "CG Albert",
     "B Bischl",
@@ -2610,30 +2560,6 @@
    "url": "https://doi.org/10.3390/proceedings2019033005",
    "venue": "Proceedings",
    "volume": "33",
-   "year": 2019
-  },
-  {
-   "authors": [
-    "Christopher G. Albert"
-   ],
-   "authors_total": 1,
-   "categories": [
-    "talk"
-   ],
-   "doi": null,
-   "id": "WZ2WX64V",
-   "invited": false,
-   "issue": null,
-   "note": "Oral presentation at MaxEnt 2019, Garching, Germany",
-   "pages": null,
-   "peer_reviewed": false,
-   "search": "gaussian processes for data fulfilling linear differential equations 2019 albert",
-   "sort": "2019",
-   "title": "Gaussian Processes for Data Fulfilling Linear Differential Equations",
-   "type": "talk",
-   "url": null,
-   "venue": null,
-   "volume": null,
    "year": 2019
   },
   {
@@ -2715,31 +2641,6 @@
   },
   {
    "authors": [
-    "Christopher Albert",
-    "Klaus Lichtenegger"
-   ],
-   "authors_total": 2,
-   "categories": [
-    "book"
-   ],
-   "doi": null,
-   "id": "AGSTJDJT",
-   "invited": false,
-   "issue": null,
-   "note": null,
-   "pages": null,
-   "peer_reviewed": true,
-   "search": "physikalische rezepte: mechanik springer 2018 albert lichtenegger",
-   "sort": "2018",
-   "title": "Physikalische Rezepte: Mechanik",
-   "type": "book",
-   "url": null,
-   "venue": "Springer",
-   "volume": null,
-   "year": 2018
-  },
-  {
-   "authors": [
     "Christopher G. Albert"
    ],
    "authors_total": 1,
@@ -2786,30 +2687,6 @@
    "type": "conference",
    "url": "http://ocs.ciemat.es/EPS2018PAP/pdf/P2.1046.pdf",
    "venue": "45th EPS Conference on Plasma Physics",
-   "volume": null,
-   "year": 2018
-  },
-  {
-   "authors": [
-    "Christopher G. Albert"
-   ],
-   "authors_total": 1,
-   "categories": [
-    "talk"
-   ],
-   "doi": null,
-   "id": "NI57BD9R",
-   "invited": true,
-   "issue": null,
-   "note": "Invited oral presentation at 10th International Styrian Noise, Vibration & Harshness Congress, 2018, Graz, Austria",
-   "pages": null,
-   "peer_reviewed": false,
-   "search": "fast full wave simulation of ultrasonic pulse-echo testing by iterative coupling of analytical and numerical methods 2018 albert",
-   "sort": "2018",
-   "title": "Fast full wave simulation of ultrasonic pulse-echo testing by iterative coupling of analytical and numerical methods",
-   "type": "talk",
-   "url": null,
-   "venue": null,
    "volume": null,
    "year": 2018
   },
@@ -3237,34 +3114,6 @@
    "venue": null,
    "volume": null,
    "year": 2016
-  },
-  {
-   "authors": [
-    "Christopher Albert",
-    "Martin Heyn",
-    "Sergei Kasilov",
-    "Winfried Kernbichler",
-    "Andreas Frank Martitsch"
-   ],
-   "authors_total": 5,
-   "categories": [
-    "paper"
-   ],
-   "doi": null,
-   "id": "8ES6RSVK",
-   "invited": false,
-   "issue": null,
-   "note": null,
-   "pages": null,
-   "peer_reviewed": false,
-   "search": "toroidal torque in resonant transport regimes of tokamak plasmas with perturbed axisymmetry within hamiltonian theory: 20th international stellarator-heliotron workshop (ishw) 2015 albert heyn kasilov kernbichler martitsch",
-   "sort": "2015",
-   "title": "Toroidal torque in resonant transport regimes of tokamak plasmas with perturbed axisymmetry within Hamiltonian theory: 20th International Stellarator-Heliotron Workshop (ISHW)",
-   "type": "conference",
-   "url": null,
-   "venue": null,
-   "volume": null,
-   "year": 2015
   },
   {
    "authors": [
