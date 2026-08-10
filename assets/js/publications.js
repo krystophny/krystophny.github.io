@@ -137,9 +137,18 @@
         }
         if (item.doi) {
             meta.appendChild(document.createTextNode(" "));
-            meta.appendChild(el("span", "pubs__doi", item.doi));
+            // The DOI is the route to the paper when no file is linkable,
+            // so it is a link and not decoration.
+            var doi = el("a", "pubs__doi", item.doi);
+            doi.setAttribute("href", "https://doi.org/" + item.doi);
+            doi.setAttribute("rel", "noopener");
+            meta.appendChild(doi);
         }
         if (item.invited) { meta.appendChild(el("span", "pubs__tag", "Invited")); }
+        // Open without a linkable file: say so, the DOI leads to the copy.
+        if (item.open_access && !item.pdf) {
+            meta.appendChild(el("span", "pubs__tag", "Open access"));
+        }
         var full = safeHref(item.pdf);
         if (full) {
             meta.appendChild(document.createTextNode(" "));

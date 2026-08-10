@@ -8,10 +8,18 @@
  *
  * No framework classes and no var(--bs-*): the group site runs Bootstrap
  * 5.0.2, which predates the custom-property expansion.
+ *
+ * Light and dark both work by inheriting: one rule colour is defined as a
+ * custom property and flipped once, and color-scheme tells the browser to
+ * paint the native search box and selects to match. Nothing here sets a text
+ * colour, so the component follows whatever the page around it is doing.
  */
 
 .pubs {
     margin: 1.5rem 0;
+    color-scheme: light dark;
+    --pubs-rule: rgba(0, 0, 0, 0.12);
+    --pubs-edge: rgba(0, 0, 0, 0.2);
 }
 
 .pubs__controls {
@@ -28,7 +36,7 @@
     flex: 1 1 16rem;
     min-width: 0;
     padding: 0.4em 0.6em;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 1px solid var(--pubs-edge);
     border-radius: 4px;
     background: transparent;
 }
@@ -37,7 +45,7 @@
     font: inherit;
     color: inherit;
     padding: 0.4em 0.5em;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 1px solid var(--pubs-edge);
     border-radius: 4px;
     background: transparent;
 }
@@ -66,11 +74,11 @@
 
 .pubs__item {
     padding: 0.85rem 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.12);
+    border-top: 1px solid var(--pubs-rule);
 }
 
 .pubs__item:last-child {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    border-bottom: 1px solid var(--pubs-rule);
 }
 
 .pubs__title {
@@ -105,7 +113,7 @@
     display: inline-block;
     margin-left: 0.5em;
     padding: 0.05em 0.45em;
-    border: 1px solid rgba(0, 0, 0, 0.18);
+    border: 1px solid var(--pubs-edge);
     border-radius: 3px;
     font-size: 0.85em;
     opacity: 0.9;
@@ -137,7 +145,7 @@
     font: inherit;
     color: inherit;
     background: none;
-    border: 1px solid rgba(0, 0, 0, 0.15);
+    border: 1px solid var(--pubs-edge);
     border-radius: 4px;
     padding: 0.2em 0.6em;
     cursor: pointer;
@@ -171,15 +179,8 @@
 }
 
 @media (prefers-color-scheme: dark) {
-    .pubs__item,
-    .pubs__item:last-child {
-        border-color: rgba(255, 255, 255, 0.16);
-    }
-
-    .pubs__search,
-    .pubs__select,
-    .pubs__page,
-    .pubs__tag {
-        border-color: rgba(255, 255, 255, 0.25);
+    .pubs {
+        --pubs-rule: rgba(255, 255, 255, 0.16);
+        --pubs-edge: rgba(255, 255, 255, 0.28);
     }
 }
