@@ -1,6 +1,6 @@
 {
  "count": 114,
- "generated_at": "2026-08-10T18:29:27+00:00",
+ "generated_at": "2026-08-10T20:14:35+00:00",
  "items": [
   {
    "authors": [
@@ -15,9 +15,9 @@
    "note": "Invited oral presentation; source: official JPP Colloquium event page",
    "pages": null,
    "peer_reviewed": false,
-   "search": "optimizing stellarator optimization for turbulence and energetic particles jpp colloquium 2026 albert",
+   "search": "optimizing stellarator optimization: recent advances in theory and numerics jpp colloquium 2026 albert",
    "sort": "2026-08-06",
-   "title": "Optimizing stellarator optimization for turbulence and energetic particles",
+   "title": "Optimizing stellarator optimization: recent advances in theory and numerics",
    "type": "talk",
    "url": "https://cassyni.com/s/jpp-colloquium",
    "venue": "JPP Colloquium",
