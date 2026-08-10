@@ -182,8 +182,8 @@
         controls.appendChild(search);
 
         var typeSelect = el("select", "pubs__select");
-        typeSelect.setAttribute("aria-label", "Filter by type");
-        typeSelect.appendChild(new Option("All types", ""));
+        typeSelect.setAttribute("aria-label", "Filter by category");
+        typeSelect.appendChild(new Option("All categories", ""));
         (data.types || []).forEach(function (entry) {
             typeSelect.appendChild(new Option(entry.label, entry.value));
         });
@@ -217,7 +217,7 @@
         function render() {
             var tokens = fold(state.q).split(/\s+/).filter(Boolean);
             var rows = data.items.filter(function (item) {
-                if (state.type && item.type !== state.type) { return false; }
+                if (state.type && item.category !== state.type) { return false; }
                 return !tokens.length || matches(item, tokens);
             });
             if (state.order === "old") {
