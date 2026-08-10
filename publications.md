@@ -8,7 +8,7 @@ order: 3
 <link rel="stylesheet" href="{{ '/assets/css/publications.css' | relative_url }}">
 
 <div class="pubs"
-     data-src="{{ '/assets/data/publications.json' | relative_url }}"
+     data-src="{{ '/assets/data/publications.json' | relative_url }}?v={{ site.time | date: '%s' }}"
      data-per-page="25">
   <p>
     Generated from my Zotero library.
