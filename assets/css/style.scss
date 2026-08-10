@@ -44,11 +44,21 @@ hr {
     border-color: var(--page-rule);
 }
 
+/* minima qualifies these with .site-nav, so match its specificity. */
 .site-title,
 .site-title:visited,
-.page-link,
-.page-link:visited {
+.site-nav .page-link,
+.site-nav .page-link:visited {
     color: var(--page-fg);
+}
+
+.site-nav .menu-icon > svg {
+    fill: var(--page-fg);
+}
+
+.site-nav {
+    background-color: var(--page-bg);
+    border-color: var(--page-rule);
 }
 
 .site-footer,
