@@ -5,7 +5,9 @@ permalink: /publications/
 order: 3
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/publications.css' | relative_url }}">
+<!-- The stylesheet and the script carry the same cache-buster as the data:
+     without it a browser keeps an old renderer and silently drops features. -->
+<link rel="stylesheet" href="{{ '/assets/css/publications.css' | relative_url }}?v={{ site.time | date: '%s' }}">
 
 <div class="pubs"
      data-src="{{ '/assets/data/publications.json' | relative_url }}?v={{ site.time | date: '%s' }}"
@@ -17,4 +19,4 @@ order: 3
   </p>
 </div>
 
-<script src="{{ '/assets/js/publications.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/publications.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
