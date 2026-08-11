@@ -1,0 +1,17 @@
+<h1>Publications</h1>
+
+<!-- The stylesheet and the script carry the same cache-buster as the data:
+     without it a browser keeps an old renderer and silently drops features. -->
+<link rel="stylesheet" href="{{BASE}}/css/publications.css?v={{V}}">
+
+<div class="pubs"
+     data-src="{{BASE}}/data/publications.json?v={{V}}"
+     data-per-page="25">
+<p>
+Generated from my Zotero library.
+<a href="https://scholar.google.com/citations?user=nMhOjWIAAAAJ">Google Scholar</a>
+<a href="https://orcid.org/0000-0003-4773-416X">ORCID</a>
+</p>
+</div>
+
+<script src="{{BASE}}/js/publications.js?v={{V}}" defer></script>
