@@ -1,31 +1,29 @@
 /* Publication list.
  *
- * Works by subtraction. It sets no font, no font size, no text colour and no
- * link colour, so it inherits whatever the host page uses. Spacing is in em
- * so it scales with the host font.
+ * Works by subtraction. No font, no font size, no colour, no border, no
+ * theme: everything inherits the page, and the form controls keep their
+ * native appearance so the browser inverts them in dark mode by itself.
  *
- * There is no light and dark palette here and no prefers-color-scheme block.
- * Every rule and border is one mid grey with alpha, which reads correctly on
- * a white page and on a dark one alike, and everything else inherits. That is
- * the whole theme handling.
+ * What is left is the three things HTML cannot do on its own: stop the list
+ * rendering as bullets, stop the search box being full-page wide, and put a
+ * space before the markers that the renderer appends with no text node
+ * between them, which otherwise read as "2026Invited".
  */
 
-.pubs {
-    margin: 1.5em 0;
+.pubs__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-.pubs__controls {
-    margin-bottom: 1em;
+.pubs__item {
+    margin: 1em 0;
 }
 
-.pubs__search,
-.pubs__select {
-    font: inherit;
-    color: inherit;
-    background: transparent;
-    border: 1px solid rgba(128, 128, 128, 0.4);
-    padding: 0.3em;
-    margin: 0 0.5em 0.5em 0;
+.pubs__title,
+.pubs__authors,
+.pubs__meta {
+    display: block;
 }
 
 /* A width, deliberately not a flex basis. These controls used to sit in a
@@ -37,94 +35,9 @@
 .pubs__search {
     width: 100%;
     max-width: 24em;
-    box-sizing: border-box;
 }
 
-.pubs__profile {
-    margin: 0 0 0.8em;
-    font-size: 0.9em;
-}
-
-.pubs__profile a + a {
-    margin-left: 0.75em;
-}
-
-.pubs__status {
-    font-size: 0.9em;
-    margin: 0 0 0.5em;
-}
-
-.pubs__list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.pubs__item {
-    padding: 0.7em 0;
-    border-top: 1px solid rgba(128, 128, 128, 0.4);
-}
-
-.pubs__item:last-child {
-    border-bottom: 1px solid rgba(128, 128, 128, 0.4);
-}
-
-.pubs__title {
-    display: block;
-}
-
-.pubs__authors,
-.pubs__meta {
-    display: block;
-    font-size: 0.9em;
-}
-
-.pubs__venue {
-    font-style: italic;
-}
-
-.pubs__tag {
-    border: 1px solid rgba(128, 128, 128, 0.4);
-    padding: 0 0.3em;
-    font-size: 0.85em;
-    margin-left: 0.4em;
-}
-
+.pubs__tag,
 .pubs__pdf {
     margin-left: 0.4em;
-    white-space: nowrap;
-}
-
-.pubs__doi {
-    white-space: nowrap;
-}
-
-.pubs__pager {
-    margin-top: 1em;
-}
-
-.pubs__page {
-    font: inherit;
-    color: inherit;
-    background: transparent;
-    border: 1px solid rgba(128, 128, 128, 0.4);
-    padding: 0.2em 0.5em;
-    margin: 0 0.2em 0.2em 0;
-    cursor: pointer;
-}
-
-.pubs__page[disabled] {
-    cursor: default;
-}
-
-.pubs__page[aria-current="page"] {
-    font-weight: bold;
-}
-
-.pubs__gap {
-    padding: 0 0.2em;
-}
-
-.pubs__empty {
-    padding: 1em 0;
 }

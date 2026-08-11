@@ -1,15 +1,14 @@
 /* Whole-site stylesheet.
  *
- * Browser default font, browser default colours.  The single declaration
- * color-scheme: light dark tells the browser to paint its own light and dark
- * canvas, text and link colours, so there is no palette here and nothing to
- * keep in sync between the two themes.
+ * Browser default font, browser default colours, browser default everything.
  *
- * Layout is one centred column.  A max-width in em keeps the line length
- * readable on a desktop, and below that width the column simply fills the
- * viewport, which is the whole of the mobile layout.  Padding is 1em rather
- * than a fixed pixel margin, so a 375px phone loses a finger-width to the
- * edges instead of half its screen.
+ * color-scheme: light dark is the entire theme handling. The browser paints
+ * its own light and dark canvas, text, link and form-control colours, so dark
+ * mode is plain inversion. There is deliberately no dark-mode rule anywhere
+ * in this file: any such rule is something the browser did not ask for.
+ *
+ * The only layout is one centred column, which is also the whole of the
+ * mobile layout, and images that do not overflow it.
  */
 
 :root {
@@ -20,74 +19,9 @@ body {
     max-width: 44em;
     margin: 0 auto;
     padding: 1em;
-    line-height: 1.5;
 }
 
 img {
     max-width: 100%;
     height: auto;
-}
-
-/* Wide content scrolls inside its own box so the page itself never scrolls
-   sideways on a phone. */
-pre,
-table {
-    display: block;
-    max-width: 100%;
-    overflow-x: auto;
-}
-
-header .logo {
-    height: 2.5em;
-    width: auto;
-    margin: 0 1em 0.5em 0;
-    vertical-align: middle;
-}
-
-/* The TU Graz and ITPcp marks are drawn for a light page, so on a dark one
-   they keep a light plate rather than being inverted, which would recolour
-   the red. */
-@media (prefers-color-scheme: dark) {
-    header .logo {
-        background: #fff;
-        padding: 2px;
-    }
-}
-
-nav a {
-    display: inline-block;
-    margin-right: 1em;
-    line-height: 2;
-}
-
-footer {
-    font-size: 0.9em;
-}
-
-/* Portraits sit beside the text on a wide screen. On a narrow one a float
-   would squeeze the paragraph into a few words per line, so it becomes an
-   ordinary block above the text instead. */
-.portrait {
-    float: right;
-    width: 20%;
-    max-width: 8em;
-    margin: 0 0 1em 1em;
-}
-
-@media (max-width: 30em) {
-    .portrait {
-        float: none;
-        display: block;
-        width: 6em;
-        margin: 0 0 0.5em 0;
-    }
-}
-
-figure {
-    margin: 1em 0;
-}
-
-figcaption {
-    font-size: 0.9em;
-    opacity: 0.75;
 }
