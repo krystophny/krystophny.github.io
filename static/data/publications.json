@@ -7,7 +7,7 @@
   },
   {
    "count": 9,
-   "label": "Grassler",
+   "label": "Graßler",
    "value": "grassler"
   },
   {
@@ -47,7 +47,7 @@
   }
  ],
  "count": 119,
- "generated_at": "2026-08-10T23:14:18+00:00",
+ "generated_at": "2026-08-13T08:03:19+00:00",
  "items": [
   {
    "authors": [
@@ -110,7 +110,7 @@
   },
   {
    "authors": [
-    "Georg S. Grassler",
+    "Georg S. Graßler",
     "Christopher G. Albert",
     "Sergei V. Kasilov",
     "Winfried Kernbichler"
@@ -476,7 +476,7 @@
   {
    "authors": [
     "J Schatzlmayr",
-    "G Grassler",
+    "G Graßler",
     "M F Heyn",
     "S V Kasilov",
     "C G Albert",
@@ -668,7 +668,7 @@
   {
    "authors": [
     "Christopher G Albert",
-    "Georg Sebastian Grassler",
+    "Georg Sebastian Graßler",
     "Sergei Valentinovich Kasilov",
     "Markus Markl",
     "Jonatan Schatzlmayr"
