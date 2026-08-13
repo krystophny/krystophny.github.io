@@ -26,8 +26,6 @@ img {
     height: auto;
 }
 
-nav {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.75em;
+nav a + a {
+    margin-left: 0.75em;
 }
