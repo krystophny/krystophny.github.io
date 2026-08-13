@@ -25,3 +25,9 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75em;
+}
